@@ -1,0 +1,40 @@
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px 20px;
+  flex-direction: column;
+}
+
+.image {
+  max-height: 300px;
+  margin-bottom: 40px;
+}
+
+.containerData h3 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.data {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.btn {
+  padding: 10px;
+  color: white;
+  background-color: #1b50ff;
+  border-radius: 4px;
+  margin: 0 10px;
+  border: none;
+  cursor: pointer;
+}

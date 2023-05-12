@@ -1,0 +1,67 @@
+.header {
+  padding: 15px;
+  box-shadow: 0 0 4px gray;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  margin: 0 10px;
+  position: relative;
+}
+
+.link {
+  padding: 10px 15px;
+  border-radius: 4px;
+  border: 1px solid gray;
+  background-color: white;
+}
+
+.link:hover {
+  background-color: #f4f4f4;
+}
+
+.item:hover > .nestedContainer {
+  display: flex;
+  position: absolute;
+  bottom: -94px;
+  left: 0;
+  z-index: 1;
+}
+
+.nestedContainer {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 180px;
+  border: 1px solid gray;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.nestedItem {
+  border-bottom: 1px solid gray;
+  width: 100%;
+}
+
+.nestedLink {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 15px;
+}
+
+.nestedLink:hover {
+  background-color: #f4f4f4;
+}
